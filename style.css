@@ -1,0 +1,172 @@
+* {
+  margin: 0 auto;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgba(236, 242, 242, 0.961);
+}
+.container {
+  width: 460px;
+}
+
+.main,
+footer {
+  background-color: white;
+  margin: 15px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+h1 {
+  height: 80px;
+  color: #5050f4;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  background-color: rgba(236, 242, 242, 0.961);
+  padding: 5px;
+}
+h2 {
+  margin: 5px;
+  padding: 10px;
+}
+p {
+  font-weight: 100;
+  font-size: 10px;
+}
+.paragraph {
+  font-size: small;
+}
+a {
+  text-decoration: none;
+  color: rgb(108, 108, 226);
+}
+.account {
+  margin: 10px;
+}
+.grid-container {
+  padding: 5px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+.grid-item {
+  width: 185px;
+  height: 35px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 5px;
+}
+#item1,
+#item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 390px;
+}
+.pdob {
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+hr {
+  margin: 10px;
+  color: white;
+  width: auto;
+  line-height: 0.5px;
+}
+.flex {
+  display: flex;
+  gap: 7px;
+  margin: 15px;
+  justify-content: space-between;
+}
+.dob,
+.span {
+  width: 120px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 5px;
+  height: 35px;
+  background-color: white;
+}
+.span {
+  text-align: left;
+  padding-top: 7px;
+  height: 30px;
+  padding-left: 10px;
+}
+.gend {
+  float: right;
+  margin-right: 10px;
+}
+p.inform {
+  text-align: left;
+  margin: 10px;
+  padding-left: 10px;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(45, 194, 45);
+  color: white;
+  border-radius: 10px;
+  font-size: large;
+}
+.al {
+  margin: 15px;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 20px;
+
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 95%;
+  }
+  h1 {
+    height: 80px;
+    color: #5050f4;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-item,
+  #item1,
+  #item2 {
+    width: 90%;
+    margin: 5px;
+  }
+  .dob,
+  .span {
+    width: 92%;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .gend {
+    float: right;
+    margin: 0%;
+  }
+  .span {
+    width: 94%;
+    height: 25px;
+    padding: 10px 3px 0px 5px;
+  }
+}

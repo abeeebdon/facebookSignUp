@@ -1,0 +1,156 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgba(236, 242, 242, 0.961);
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+}
+.body {
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  height: 80vh;
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.facebook {
+  margin: 15px;
+  color: #5050f4;
+  font-weight: 600;
+  font-size: 2.7rem;
+}
+.flex-item2 {
+  margin: 10px;
+}
+.head {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 90%;
+  font-size: 1.25rem;
+}
+.form {
+  background-color: white;
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+.input {
+  margin-bottom: 15px;
+}
+input {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  color: rgb(138, 132, 132);
+  padding: 8px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 7px;
+  font-size: 15px;
+  height: 30px;
+  margin: 0 auto;
+}
+#submit_form {
+  height: 45px;
+  width: 95%;
+  background-color: #5050f4;
+  color: white;
+  max-width: 380px;
+}
+.forgetPasswordwrapper {
+  text-align: center;
+  margin: 15px;
+}
+.forgotPassword {
+  color: #5050f4;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px;
+}
+.btn {
+  color: white;
+  background-color: rgb(17, 184, 17);
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.celebParagraph {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin: 20px;
+}
+.celeb {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  height: 15vh;
+  margin: 0;
+  background-color: white;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  color: rgb(138, 132, 132);
+  font-size: small;
+  letter-spacing: 1px;
+}
+.footer {
+  word-spacing: 5px;
+  padding: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+
+  margin-top: 60px;
+}
+.languages {
+  padding: 10px;
+}
+
+@media (min-width: 900px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+  }
+  .body {
+    margin: auto;
+    width: 95%;
+    max-width: 1200px;
+  }
+  .flex-item2 {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .facebook {
+    text-align: left;
+    padding-left: 5px;
+  }
+  .head {
+    text-align: left;
+  }
+}
